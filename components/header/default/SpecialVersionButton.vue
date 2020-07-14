@@ -1,6 +1,6 @@
 <template>
-  <div class="d-flex align-center">
-    <a class="special-version-button" v-on:click.prevent="switchVersion">
+  <div class="d-flex">
+    <a v-on:click.prevent="switchVersion">
       <v-icon color="white">{{ eyeIcon }}</v-icon>
       <span class="pl-2">{{ $t("header.inclusivenessVersionButton") }}</span>
     </a>
@@ -24,9 +24,3 @@ export default {
   },
 };
 </script>
-
-<style>
-.special-version-button {
-  color: var(--font-color-white) !important;
-}
-</style>
