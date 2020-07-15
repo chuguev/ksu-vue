@@ -37,7 +37,6 @@ export default {
   data() {
     return {
       searchIcon: mdiMagnify,
-      showInput: false,
       searchTerm: "",
     };
   },

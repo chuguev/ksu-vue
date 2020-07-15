@@ -1,5 +1,5 @@
 <template>
-  <v-col class="pb-0 pt-0 d-flex align-center justify-end">
+  <v-col cols="auto" class="pb-0 pt-0 d-flex align-center justify-end">
     <div class="mr-4" v-if="!showSearchInput">
       <a href="">{{ $t("header.informationAboutOrganization") }}</a>
     </div>

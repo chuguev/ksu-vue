@@ -1,10 +1,10 @@
 <template>
-  <div class="d-flex pl-5 social">
+  <div class="d-none d-sm-flex pl-5 social">
     <a
       v-for="social of socialLinks"
-      v-bind:key="social.link"
+      :key="social.link"
+      :href="social.link"
       class="social__link"
-      v-bind:href="social.link"
       target="_blank"
     >
       <v-icon color="white">{{ social.icon }}</v-icon>
