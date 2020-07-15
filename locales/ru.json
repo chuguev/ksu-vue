@@ -1,6 +1,7 @@
 {
   "header": {
     "inclusivenessVersionButton": "Версия для слабовидящих",
-    "informationAboutOrganization": "Сведения об образовательной организации"
+    "informationAboutOrganization": "Сведения об образовательной организации",
+    "searchPlaceholder": "Что вы ищите?"
   }
 }
