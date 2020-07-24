@@ -18,7 +18,7 @@ export default {
 };
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 .top-panel {
   background: var(--color-top-panel);
   font-size: var(--small-font);
