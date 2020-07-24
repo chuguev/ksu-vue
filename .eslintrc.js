@@ -2,20 +2,29 @@ module.exports = {
   root: true,
   env: {
     browser: true,
-    node: true
+    node: true,
+  },
+  globals: {
+    $nuxt: true,
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: "babel-eslint",
   },
   extends: [
+    "eslint:recommended",
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
     // consider switching to `plugin:vue/strongly-recommended` or `plugin:vue/recommended` for stricter rules.
-    'plugin:vue/essential'
+    "prettier/vue",
+    "plugin:vue/strongly-recommended",
+    "plugin:prettier/recommended",
   ],
   // required to lint *.vue files
-  plugins: [
-    'vue'
-  ],
+  plugins: ["vue"],
   // add your custom rules here
-  rules: {}
-}
+  rules: {
+    "no-console": "off",
+    "vue/max-attributes-per-line": "off",
+    "vue/html-indent": "off",
+    "prettier/prettier": [],
+  },
+};

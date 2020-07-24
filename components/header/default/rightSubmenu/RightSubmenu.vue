@@ -3,7 +3,7 @@
     <div class="mr-4" v-if="!showSearchInput">
       <a href="">{{ $t("header.informationAboutOrganization") }}</a>
     </div>
-    <Search :showSearchInput="showSearchInput" @toggle="toggleSearchInput"/>
+    <Search :show-search-input="showSearchInput" @toggle="toggleSearchInput" />
   </v-col>
 </template>
 <script>
@@ -20,8 +20,8 @@ export default {
   methods: {
     toggleSearchInput() {
       this.showSearchInput = !this.showSearchInput;
-    }
-  }
+    },
+  },
 };
 </script>
 <style lang="scss">

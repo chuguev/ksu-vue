@@ -5,8 +5,8 @@
       @click="$emit('toggle')"
       class="search__icon"
       color="white"
-      >{{ searchIcon }}</v-icon
-    >
+      >{{ searchIcon }}
+    </v-icon>
     <template v-else>
       <v-text-field
         v-model="searchTerm"
@@ -18,7 +18,7 @@
         dense
         color="indigo darken-3"
         class="pa-0 ma-0 flex-grow-1 search__input"
-      ></v-text-field>
+      />
     </template>
   </div>
 </template>

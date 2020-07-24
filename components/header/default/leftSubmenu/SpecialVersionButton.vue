@@ -1,8 +1,10 @@
 <template>
   <div class="d-flex">
-    <a v-on:click.prevent="switchVersion">
+    <a @:click.prevent="switchVersion">
       <v-icon color="white">{{ eyeIcon }}</v-icon>
-      <span class="pl-2 d-none d-sm-inline">{{ $t("header.inclusivenessVersionButton") }}</span>
+      <span class="pl-2 d-none d-sm-inline">{{
+        $t("header.inclusivenessVersionButton")
+      }}</span>
     </a>
   </div>
 </template>

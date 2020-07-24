@@ -1,23 +1,23 @@
 <template>
   <v-app>
     <div class="default-layout">
-      <HeaderDefault/>
+      <HeaderDefault />
       <v-main>
-        <nuxt/>
+        <nuxt />
       </v-main>
-      <FooterDefault/>
+      <FooterDefault />
     </div>
   </v-app>
 </template>
 
 <script>
-  import HeaderDefault from '~/components/header/default/HeaderDefault';
-  import FooterDefault from '~/components/footer/FooterDefault';
+import HeaderDefault from "~/components/header/default/HeaderDefault";
+import FooterDefault from "~/components/footer/FooterDefault";
 
-  export default {
-    components: {
-      HeaderDefault,
-      FooterDefault,
-    },
-  };
+export default {
+  components: {
+    HeaderDefault,
+    FooterDefault,
+  },
+};
 </script>
