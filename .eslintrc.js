@@ -26,5 +26,15 @@ module.exports = {
     "vue/max-attributes-per-line": "off",
     "vue/html-indent": "off",
     "prettier/prettier": [],
+    "vue/html-self-closing": [
+      "error",
+      {
+        html: {
+          void: "always",
+          normal: "never",
+          component: "any",
+        },
+      },
+    ],
   },
 };
