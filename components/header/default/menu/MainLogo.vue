@@ -6,8 +6,12 @@
 
 <script>
 export default {
-  name: "Logo",
+  name: "MainLogo",
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.logo img {
+  fill: var(--color-main-menu-font);
+}
+</style>
