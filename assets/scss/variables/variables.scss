@@ -1,13 +1,11 @@
 :root {
-  // colors
-  --color-deep-blue: #303148;
-  --color-white: #ffffff;
-  // *** header
-  --color-top-panel: rgba(48, 49, 72, 0.8);
-  --color-main-menu-font: #414363;
-
-  //fonts
-  --default-font: 14px;
-  --small-font: 0.86rem;
-  --font-color-white: #ffffff;
+  //font size
+  --size-font-small: 0.86rem;
+  --size-font-default: 14px;
+  --size-font-medium: 1.1rem;
+  --size-font-large: 1.4rem;
+  //font color
+  --color-font-white: #ffffff;
+  --color-font-brown: #998147;
+  --color-font-deep-blue: #414363
 }
