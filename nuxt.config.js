@@ -1,5 +1,5 @@
 module.exports = {
-  buildModules: [],
+  buildModules: ["bootstrap-vue/nuxt"],
   css: [
     {
       src: "~assets/scss/variables/variables.scss",
