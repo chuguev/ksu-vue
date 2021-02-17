@@ -1,13 +1,9 @@
 <template>
-  <v-app>
-    <div class="default-layout">
-      <HeaderDefault />
-      <v-main>
-        <nuxt />
-      </v-main>
-      <FooterDefault />
-    </div>
-  </v-app>
+  <div class="default-layout">
+    <HeaderDefault />
+    <nuxt />
+    <FooterDefault />
+  </div>
 </template>
 
 <script>

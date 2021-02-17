@@ -1,15 +1,5 @@
 module.exports = {
-  buildModules: ["@nuxtjs/vuetify"],
-  vuetify: {
-    treeShake: true,
-    customVariables: [
-      "~/assets/scss/variables/vuetify-variables.scss",
-      "~/assets/scss/vuetify-overloading.scss",
-    ],
-    options: {
-      customProperties: true,
-    },
-  },
+  buildModules: [],
   css: [
     {
       src: "~assets/scss/variables/variables.scss",

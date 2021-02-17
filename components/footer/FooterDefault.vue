@@ -1,5 +1,3 @@
 <template>
-  <footer class="footer">
-    dsfsdf
-  </footer>
+  <footer class="footer">dsfsdf</footer>
 </template>
