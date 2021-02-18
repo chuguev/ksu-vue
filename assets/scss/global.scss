@@ -1,1 +1,5 @@
-
+.wrapper {
+  &-grey {
+    background: var(--color-background-grey);
+  }
+}

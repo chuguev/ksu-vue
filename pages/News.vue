@@ -1,7 +1,7 @@
 <template>
-  <li class="news news-white">
-    <label class="news__date">22 марта</label>
-    <h3 class="news__title">
+  <div class="news news-white">
+    <label class="news__date mb-3">22 марта</label>
+    <h3 class="news__title mb-4">
       Формируем налоговую культуру: открытая лекция от специалиста ФНС для
       студентов КГУ
     </h3>
@@ -9,7 +9,7 @@
       В целях популяризации точных наук, информационных технологий и
       естественно-научных предметов и повышения интереса...
     </div>
-  </li>
+  </div>
 </template>
 <script>
 export default {
@@ -18,6 +18,7 @@ export default {
 </script>
 <style lang="scss">
 .news {
+  background: var(--color-background-white);
   padding: 45px;
 
   &__date {

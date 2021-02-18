@@ -1,16 +1,22 @@
 <template>
-  <section class="grey">
+  <section class="wrapper wrapper-grey">
     <div class="container news-container">
       <div class="row">
-        <div class="news-container__title">
+        <div class="news-container__title col-12 col-md-6">
           <h2>Лента новостей</h2>
         </div>
-        <div class="news-container__control">
+        <div class="news-container__control col-12 col-md-6">
           control
         </div>
-        <ul class="news-container__list">
+        <div class="col-12 col-md-6 col-lg-4">
           <News />
-        </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <News />
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <News />
+        </div>
       </div>
     </div>
   </section>
@@ -20,8 +26,6 @@
 .news-container {
   &__list {
     list-style: none;
-    margin: 0;
-    padding: 0;
   }
 }
 
