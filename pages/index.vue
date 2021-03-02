@@ -8,13 +8,16 @@
         <div class="news-container__control col-12 col-md-6">
           control
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 pb-5">
           <News />
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 pb-5">
           <News />
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 pb-5">
+          <News />
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xxl-3 pb-5">
           <News />
         </div>
       </div>
@@ -23,12 +26,6 @@
 </template>
 
 <style lang="scss">
-.news-container {
-  &__list {
-    list-style: none;
-  }
-}
-
 .news {
   padding: 45px;
 
